@@ -1,0 +1,18 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello React</title>
+  </head>
+  <body>
+
+    <h1>Welcome to react</h1>
+    <div id="root">This is the root div</div>
+
+    <script crossorigin="" src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin="" src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> 
+    <script>
+      const App = React.createElement("h1", {}, "Hello this is a react element");
+      ReactDOM.render(App, document.getElementById("root"));
+    </script>
+  </body>
+</html>
