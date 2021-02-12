@@ -1,0 +1,47 @@
+common mongo commands:
+
+show dbs
+use DB_NAME
+
+db.dropDatabase()    <-- make sure you "use" the correct DB before you type this!
+
+show collections
+db.createCollection("COLLECTION_NAME")
+db.COLLECTION_NAME.drop()      <-- be careful with this one too!
+
+common CRUD (Create, Read, Update, Delete) commands
+  http://learn.codingdojo.com/m/146/6940/50155
+
+db.ninjas.insert({name: "Trey", belt: "black", status: "awesome"})
+
+db.ninjas.find()                <-- find all documents in the collection
+db.ninjas.find().pretty()       <-- make the output easier to read - Pretty output
+db.ninjas.find({name: "Trey"})
+db.ninjas.find({_id: ObjectId("5462a78e514e258182f4c69a")})
+db.dojos.find({number_of_students: {$gt: 15}})    <-- find based on criteria of greater than
+    $gt (greater than)	Use to query selectively on numerical-valued fields
+    $gte (greater than or equal to)	Use to query selectively on numerical-valued fields
+    $lt (less than)	Use to query selectively on numerical-valued fields
+    $lte (less than or equal to)	Use to query selectively on numerical-valued fields
+    $in (in array)	Use to find documents who have a particular value within an array.
+    all operators:  https://docs.mongodb.com/manual/reference/operator/
+
+update requires 2 objects separated by a comma:
+  1 - find criteria
+  2 - what to update
+db.ninjas.update({name: "Trey"}, {location: "Mountain View"})      <-- CAUTION - replaced all data with the new object
+db.ninjas.update({name: "Trey"}, {$set: {location: "Mountain View"}})   <-- to update a single field in the document
+
+updates with arrays:
+db.students.update({_id: ObjectId("5463d871a6a96d5ed6252f4d")}, {$push: {interests: 'snowboarding'}})
+    $push	Push to an array contained within a document.
+    $pop	Removes either the first or last element from an array. 
+      EX:
+        db.COLLECTION.update({QUERY}, {$pop: {array_key: (1 or -1)}})
+        Use 1 for the last item in the array, -1 for the first item.
+    $addToSet	It functions just like $push.  
+      However, $addToSet only adds to the specified array if the value doesn't already exist (thereby preventing duplicate entries).
+    $pull	Removes a specified value from an array, unlike $pop, which removes by location. 
+      Ex:
+        db.COLLECTION.update({QUERY}, {$pull: {array_key: VALUE}})
+        This will remove all instances of VALUE from the documents with the array specified by the array_key that match QUERY.
