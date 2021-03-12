@@ -1,0 +1,26 @@
+Tolman Skiffs
+
+ownerName: String
+builderName: String
+modelName: String (dropdown list)
+	Standard (default)
+	Wide Body
+	Jumbo
+	Flat Bottom
+startDate: date
+	No later than today
+	No earlier than 1990
+finishDate: date
+	No later than today
+	No earlier than 1990
+buildComplete: Boolean
+	default: false
+stockLength: Number
+	min: 15
+	max: 30
+customLength: Number
+	min: 15
+	max: 30
+pictureUrl: string
+	optional
+

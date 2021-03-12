@@ -1,0 +1,63 @@
+
+{
+    "ownerName": "Neil Andrews",
+    "builderName": "Neil Andrews",
+    "modelName": "Standard",
+    "startDate": "2000-06-01",
+    "finishDate": "2001-09-21",
+    "buildComplete": true,
+    "stockLength": 20,
+    "customLength": 20,
+    "pictureUrl": "https://fishyfish.com/neilandrews/img/neil_andrews_firstboat.jpg",
+    "description": "This was Neil Andrew's first Tolman Skiff boat he built. It is a minimal Standard model with a steering station, and bench seats. He powered it with a two stroke outboard engine, and has a small kicker / get home engine."
+},
+{
+    "ownerName": "Neil Andrews",
+    "builderName": "Neil Andrews",
+    "modelName": "Wide Body",
+    "startDate": "2001-06-23",
+    "finishDate": "2005-08-23",
+    "buildComplete": true,
+    "stockLength": 21.4,
+    "customLength": 21.4,
+    "pictureUrl": "https://fishyfish.com/neilandrews/img/neil_andrews_beached.jpg",
+    "description": "Neil Andrews has built three Tolman Skiffs. This is his Tolman Skiff Widebody that he used to take his family fishing, camping and exploring."
+},
+{
+    "ownerName": "Neil Andrews",
+    "builderName": "Neil Andrews",
+    "modelName": "Jumbo",
+    "startDate": "2007-03-23",
+    "finishDate": "2009-05-23",
+    "buildComplete": true,
+    "stockLength": 22,
+    "customLength": 24,
+    "pictureUrl": "https://fishyfish.com/neilandrews/img/neil_andrews_jumbo_on_beach.jpg",
+    "description": "Neil Andrews built several Tolman Skiffs. This is his Tolman Skiff Jumbo that gets a lot of use in the Alaskan Wilderness, hunting, fishing, camping and going on adventures. Neil has an article https://smallboatsmonthly.com/article/jumbo/"
+},
+{
+    "ownerName": "Mark Neuhaus",
+    "builderName": "Dave Wright",
+    "modelName": "Widebody",
+    "startDate": "2016-08-23",
+    "finishDate": "2014-01-23",
+    "buildComplete": true,
+    "stockLength": 21,
+    "customLength": 21,
+    "pictureUrl":"https://fishyfish.com/davewright/img/Optimized-boat%20ride%209-9%20003.jpg",
+    "description": "Dave Wright built an 18' Tolman Standard which he sold after a couple of years and then he built 21' Tolman Wide Body that he also sold. Both boats were of imaculate construction, and quite handsome."
+},
+{
+    "ownerName": "Unknown Owner",
+    "builderName": "Paul Hail",
+    "modelName": "Widebody",
+    "startDate": "2004-05-04",
+    "finishDate": "2007-05-12",
+    "buildComplete": true,
+    "stockLength": 21.4,
+    "customLength": 21.4,
+    "pictureUrl":"https://fishyfish.com/paulhail/img/renn_tolman_hail_family_med.jpg",
+    "description": "Paul Hail built a Tolman Wide Body with a wheelhouse and cuddy cabin. He used his Tolman Skiff to take the family camping and fishing in Alaska. The photo is of Paul, his wife and kids, and Renn Tolman the designer of the Tolman Skiff."
+},
+
+
